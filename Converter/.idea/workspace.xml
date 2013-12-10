@@ -19,6 +19,7 @@
     <file path="$USER_HOME$/Downloads/Demos/Starling03-ImageGallery/src/be/devine/cp3/gallery/model/AppModel.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386324080554" ignored="false" />
     <file path="/converter.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386324595711" ignored="false" />
     <file path="$USER_HOME$/Downloads/Demos/Starling03-ImageGallery/src/be/devine/cp3/gallery/GalleryApplication.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386324559199" ignored="false" />
+    <file path="/SpriteSheetApplication.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386666156553" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,19 +89,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.as" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/converter/Main.as">
+      <file leaf-file-name="Converter.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Converter.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="68" selection-start="1246" selection-end="1246" vertical-scroll-proportion="0.26190478">
+            <state line="19" column="37" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="flash_assets.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/costum/flash_assets.xml">
+      <file leaf-file-name="Main.as" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/converter/Main.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="43" selection-start="3562" selection-end="3562" vertical-scroll-proportion="0.0">
+            <state line="28" column="10" selection-start="835" selection-end="835" vertical-scroll-proportion="0.42857143">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpriteSheetApplication.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/be/devine/cp3/spritesheet/SpriteSheetApplication.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="0" selection-start="974" selection-end="974" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -122,8 +132,9 @@
         <option value="$PROJECT_DIR$/src/Main.as" />
         <option value="$PROJECT_DIR$/src/Converter.as" />
         <option value="$PROJECT_DIR$/src/model/AppModel.as" />
-        <option value="$PROJECT_DIR$/src/converter/Main.as" />
         <option value="$PROJECT_DIR$/assets/costum/flash_assets.xml" />
+        <option value="$PROJECT_DIR$/src/be/devine/cp3/spritesheet/SpriteSheetApplication.as" />
+        <option value="$PROJECT_DIR$/src/converter/Main.as" />
       </list>
     </option>
   </component>
@@ -239,7 +250,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spritesheet" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -257,7 +272,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="costum" />
+              <option name="myItemId" value="spritesheet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Converter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Converter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -284,6 +313,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/be/devine/cp3" />
       <recent name="$PROJECT_DIR$/assets/costum" />
     </key>
     <key name="CreateActionScriptClassDialog.DESTINATION_PACKAGE_RECENT_KEY">
@@ -489,7 +519,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="9" y="22" width="1198" height="778" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -507,7 +537,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22135417" sideWeight="0.6018237" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22135417" sideWeight="0.6018237" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -648,9 +678,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Converter.as">
+    <entry file="file://$PROJECT_DIR$/src/be/devine/cp3/spritesheet/SpriteSheetApplication.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="37" selection-start="402" selection-end="402" vertical-scroll-proportion="0.23809524">
+        <state line="25" column="0" selection-start="974" selection-end="974" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -662,16 +692,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/costum/flash_assets.xml">
+    <entry file="file://$PROJECT_DIR$/src/Converter.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="43" selection-start="3562" selection-end="3562" vertical-scroll-proportion="0.0">
+        <state line="19" column="37" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/converter/Main.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="68" selection-start="1246" selection-end="1246" vertical-scroll-proportion="0.26190478">
+        <state line="28" column="10" selection-start="835" selection-end="835" vertical-scroll-proportion="0.42857143">
           <folding />
         </state>
       </provider>
