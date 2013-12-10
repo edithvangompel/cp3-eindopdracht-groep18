@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="flash_assets.png">
+	<!-- Created with Adobe Flash Professional version 13.1.0.217 -->
+	<!-- http://www.adobe.com/products/flash.html -->
+	<SubTexture name=" NAAR" x="0" y="0" width="88" height="25" pivotX="0" pivotY="0"/>
+	<SubTexture name=" VAN (EUROPESE MAAT)" x="88" y="0" width="254" height="28" pivotX="0" pivotY="0"/>
+	<SubTexture name="BG" x="342" y="0" width="480" height="800" pivotX="0" pivotY="0"/>
+	<SubTexture name="BG_kader" x="822" y="0" width="471" height="721" pivotX="0" pivotY="0"/>
+	<SubTexture name="CONVERTEER" x="1293" y="0" width="224" height="27" pivotX="0" pivotY="0"/>
+	<SubTexture name="EU_donkergroen" x="1517" y="0" width="84" height="80" pivotX="0" pivotY="0"/>
+	<SubTexture name="Layer 1" x="1601" y="0" width="0" height="0" pivotX="0" pivotY="0" frameX="-107374182" frameY="-107374182" frameWidth="0" frameHeight="0"/>
+	<SubTexture name="UK_donkergroen" x="1601" y="0" width="84" height="80" pivotX="0" pivotY="0"/>
+	<SubTexture name="UK_grijs" x="1685" y="0" width="84" height="80" pivotX="0" pivotY="0"/>
+	<SubTexture name="UK_groen" x="1769" y="0" width="84" height="80" pivotX="0" pivotY="0"/>
+	<SubTexture name="US_donkergroen" x="1853" y="0" width="84" height="80" pivotX="0" pivotY="0"/>
+	<SubTexture name="US_grijs" x="1937" y="0" width="84" height="80" pivotX="0" pivotY="0"/>
+	<SubTexture name="US_groen" x="0" y="800" width="84" height="80" pivotX="0" pivotY="0"/>
+	<SubTexture name="broek_grijs" x="84" y="800" width="104" height="155" pivotX="0" pivotY="0"/>
+	<SubTexture name="broek_groen" x="188" y="800" width="104" height="155" pivotX="0" pivotY="0"/>
+	<SubTexture name="btn_MAN" x="292" y="800" width="105" height="100" pivotX="0" pivotY="0"/>
+	<SubTexture name="btn_MAN init" x="397" y="800" width="105" height="100" pivotX="0" pivotY="0"/>
+	<SubTexture name="btn_VROUW" x="502" y="800" width="105" height="100" pivotX="0" pivotY="0"/>
+	<SubTexture name="btn_VROUW init" x="607" y="800" width="105" height="100" pivotX="0" pivotY="0"/>
+	<SubTexture name="button_leeg" x="712" y="800" width="84" height="80" pivotX="0" pivotY="0"/>
+	<SubTexture name="duid_aan_tekst" x="796" y="800" width="312" height="54" pivotX="0" pivotY="0"/>
+	<SubTexture name="hemd_grijs" x="1108" y="800" width="183" height="158" pivotX="0" pivotY="0"/>
+	<SubTexture name="hemd_groen" x="1291" y="800" width="183" height="158" pivotX="0" pivotY="0"/>
+	<SubTexture name="intro" x="1474" y="800" width="338" height="426" pivotX="0" pivotY="0"/>
+	<SubTexture name="kleed_grijs" x="1812" y="800" width="128" height="202" pivotX="0" pivotY="0"/>
+	<SubTexture name="kleed_oranje" x="0" y="1226" width="128" height="202" pivotX="0" pivotY="0"/>
+	<SubTexture name="kleerhanger" x="128" y="1226" width="180" height="96" pivotX="0" pivotY="0"/>
+	<SubTexture name="lijnen" x="308" y="1226" width="430" height="4" pivotX="0" pivotY="0"/>
+	<SubTexture name="next_button" x="738" y="1226" width="72" height="72" pivotX="0" pivotY="0"/>
+	<SubTexture name="preloader" x="810" y="1226" width="480" height="18" pivotX="0" pivotY="0"/>
+	<SubTexture name="replay_button" x="1290" y="1226" width="72" height="72" pivotX="0" pivotY="0"/>
+	<SubTexture name="schoenen_man_grijs" x="1362" y="1226" width="220" height="37" pivotX="0" pivotY="0"/>
+	<SubTexture name="schoenen_man_groen" x="1582" y="1226" width="220" height="37" pivotX="0" pivotY="0"/>
+	<SubTexture name="schoenen_vrouw_grijs" x="1802" y="1226" width="183" height="53" pivotX="0" pivotY="0"/>
+	<SubTexture name="schoenen_vrouw_oranje" x="0" y="1428" width="183" height="53" pivotX="0" pivotY="0"/>
+</TextureAtlas>
