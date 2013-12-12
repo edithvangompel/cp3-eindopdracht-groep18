@@ -4,8 +4,8 @@
     <list default="true" id="159af628-6f31-4a71-87bf-67d324bfba20" name="Default" comment="" />
     <ignored path="Converter.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/fragment.js2" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386324518607" ignored="false" />
-    <file path="/Main.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386448683928" ignored="false" />
+    <file path="/fragment.js2" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386869939858" ignored="false" />
+    <file path="/Main.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386783744070" ignored="false" />
     <file path="$USER_HOME$/Downloads/Demos/Starling01-KaatsendeBal/src/Starling01KaatsendeBal.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386323201181" ignored="false" />
     <file path="$USER_HOME$/Downloads/Demos/Starling01-KaatsendeBal/Starling01KaatsendeBal-app.xml" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386323379146" ignored="false" />
     <file path="/Starling01KaatsendeBal-app.xml" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386323374006" ignored="false" />
@@ -15,11 +15,313 @@
     <file path="/Starling03ImageGallery_-app.xml" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386323676464" ignored="false" />
     <file path="$USER_HOME$/Downloads/Demos/Starling03-ImageGallery/src/Starling03ImageGallery.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386324317246" ignored="false" />
     <file path="/Starling03ImageGallery.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386323983346" ignored="false" />
-    <file path="/AppModel.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386422013713" ignored="false" />
+    <file path="/AppModel.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386867233758" ignored="false" />
     <file path="$USER_HOME$/Downloads/Demos/Starling03-ImageGallery/src/be/devine/cp3/gallery/model/AppModel.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386324080554" ignored="false" />
     <file path="/converter.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386324595711" ignored="false" />
     <file path="$USER_HOME$/Downloads/Demos/Starling03-ImageGallery/src/be/devine/cp3/gallery/GalleryApplication.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386324559199" ignored="false" />
     <file path="/SpriteSheetApplication.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386666156553" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/02_Scollbar/ MVC_components/src/be/devine/cp3/scrollbar/Scrollbar.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386772023962" ignored="false" />
+    <file path="/Scrollbar.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386771561820" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/03_MVC_components/labo_01/src/be/devine/cp3/Application.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386778409337" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/03_MVC_components/labo_02_coverflow/src/be/devine/cp3/Coverflow.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386778547530" ignored="false" />
+    <file path="/ImageLoader.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386778953883" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Photobooth/src/be/devine/cp3/photobooth/view/ImageLoader.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386778966588" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/05_/src/be/devine/cp3/photobooth/Application.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386784537375" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/Main.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386779647717" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/be/devine/cp3/photobooth/model/AppModel.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386783945988" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/05_/src/be/devine/cp3/photobooth/model/AppModel.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386783140387" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/05_/src/Main.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386783748617" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/be/devine/cp3/photobooth/Application.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386846520357" ignored="false" />
+    <file path="/Application.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386846442263" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/be/devine/cp3/photobooth/view/PhotoSelector.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386784458682" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/be/devine/cp3/photobooth/view/Navigator.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386784609192" ignored="false" />
+    <file path="/Navigator.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386784583686" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/be/devine/cp3/photobooth/view/PictureWindowContent.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386846294857" ignored="false" />
+    <file path="/PictureWindowContent.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386846294226" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/adobe/protocols/dict/events/DefinitionEvent.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845937277" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/adobe/protocols/dict/events/DisconnectedEvent.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845937277" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/adobe/protocols/dict/events/MatchStrategiesEvent.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845937277" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/adobe/protocols/dict/events/DefinitionHeaderEvent.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845937277" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/adobe/protocols/dict/events/DictionaryServerEvent.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845937277" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/adobe/protocols/dict/Dict.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845937277" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/adobe/protocols/dict/Database.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845937277" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/adobe/protocols/dict/Response.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845937277" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/adobe/protocols/dict/Definition.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845937277" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/adobe/protocols/dict/MatchStrategy.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845937277" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/adobe/protocols/dict/DictionaryServer.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845937277" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/adobe/fileformats/vcard/Email.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845937278" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/adobe/fileformats/vcard/Phone.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845937278" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/adobe/fileformats/vcard/VCard.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845937278" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/adobe/fileformats/vcard/Address.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845937278" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/adobe/fileformats/vcard/VCardParser.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845937278" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/adobe/serialization/json/JSON.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845937278" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/adobe/air/net/events/ResourceCacheEvent.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845937278" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/adobe/serialization/json/JSONToken.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845937278" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/adobe/air/net/ResourceCache.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845937278" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/adobe/serialization/json/JSONDecoder.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845937278" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/adobe/serialization/json/JSONEncoder.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845937278" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/adobe/air/crypto/EncryptionKeyGenerator.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845937278" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/adobe/serialization/json/JSONTokenizer.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845937278" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/adobe/serialization/json/JSONTokenType.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845937278" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/adobe/air/logging/FileTarget.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845937278" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/adobe/serialization/json/JSONParseError.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845937278" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/adobe/air/filesystem/events/FileMonitorEvent.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845937278" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/adobe/air/filesystem/FileUtil.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845937278" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/adobe/air/filesystem/FileMonitor.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845937278" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/adobe/air/filesystem/VolumeMonitor.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845937278" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/adobe/net/URI.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845937278" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/adobe/net/proxies/RFC2817Socket.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845937278" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/adobe/net/MimeTypeMap.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845937278" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/adobe/net/IURIResolver.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845937278" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/adobe/net/DynamicURLLoader.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845937278" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/adobe/net/URIEncodingBitmap.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845937278" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/adobe/utils/IntUtil.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845937278" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/adobe/utils/XMLUtil.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845937278" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/adobe/utils/DateUtil.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845937278" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/adobe/utils/ArrayUtil.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845937278" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/adobe/utils/StringUtil.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845937278" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/adobe/utils/DictionaryUtil.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845937278" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/adobe/utils/NumberFormatter.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845937278" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/adobe/crypto/MD5.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845937278" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/adobe/crypto/HMAC.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845937278" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/adobe/crypto/SHA1.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845937278" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/adobe/crypto/SHA224.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845937278" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/adobe/crypto/SHA256.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845937278" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/adobe/crypto/MD5Stream.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845937278" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/adobe/crypto/WSSEUsernameToken.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845937278" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/adobe/errors/IllegalStateError.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845937278" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/adobe/images/BitString.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845937278" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/adobe/images/JPGEncoder.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845937278" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/adobe/images/PNGEncoder.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845937278" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/adobe/webapis/events/ServiceEvent.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845937278" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/adobe/webapis/ServiceBase.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845937278" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/adobe/webapis/URLLoaderBase.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845937278" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/adobe/protocols/dict/util/SocketHelper.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845937278" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/adobe/protocols/dict/util/CompleteResponseEvent.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845937278" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/adobe/protocols/dict/events/ErrorEvent.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845937278" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/adobe/protocols/dict/events/MatchEvent.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845937278" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/adobe/protocols/dict/events/NoMatchEvent.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845937278" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/adobe/protocols/dict/events/DatabaseEvent.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845937278" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/adobe/protocols/dict/events/ConnectedEvent.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845937278" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/com/adobe/protocols/dict/events/DefinitionEvent.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845978501" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/com/adobe/protocols/dict/events/DisconnectedEvent.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845978501" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/com/adobe/protocols/dict/events/MatchStrategiesEvent.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845978501" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/com/adobe/protocols/dict/events/DefinitionHeaderEvent.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845978501" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/com/adobe/protocols/dict/events/DictionaryServerEvent.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845978501" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/com/adobe/protocols/dict/Dict.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845978501" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/com/adobe/protocols/dict/Database.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845978501" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/com/adobe/protocols/dict/Response.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845978501" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/com/adobe/protocols/dict/Definition.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845978501" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/com/adobe/protocols/dict/MatchStrategy.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845978501" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/com/adobe/protocols/dict/DictionaryServer.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845978501" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/com/adobe/fileformats/vcard/Email.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845978501" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/com/adobe/fileformats/vcard/Phone.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845978501" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/com/adobe/fileformats/vcard/VCard.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845978501" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/com/adobe/fileformats/vcard/Address.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845978501" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/com/adobe/fileformats/vcard/VCardParser.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845978501" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/com/adobe/serialization/json/JSON.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845978501" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/com/adobe/air/net/events/ResourceCacheEvent.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845978501" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/com/adobe/serialization/json/JSONToken.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845978501" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/com/adobe/air/net/ResourceCache.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845978501" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/com/adobe/serialization/json/JSONDecoder.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845978501" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/com/adobe/serialization/json/JSONEncoder.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845978501" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/com/adobe/air/crypto/EncryptionKeyGenerator.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386846229802" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/com/adobe/serialization/json/JSONTokenizer.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845978502" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/com/adobe/serialization/json/JSONTokenType.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845978502" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/com/adobe/air/logging/FileTarget.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845978502" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/com/adobe/serialization/json/JSONParseError.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845978502" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/com/adobe/air/filesystem/events/FileMonitorEvent.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845978502" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/com/adobe/air/filesystem/FileUtil.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845978502" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/com/adobe/air/filesystem/FileMonitor.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845978833" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/com/adobe/air/filesystem/VolumeMonitor.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845978833" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/com/adobe/net/URI.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845978502" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/com/adobe/net/proxies/RFC2817Socket.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845978502" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/com/adobe/net/MimeTypeMap.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845978833" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/com/adobe/net/IURIResolver.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845978502" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/com/adobe/net/DynamicURLLoader.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845978502" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/com/adobe/net/URIEncodingBitmap.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845978502" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/com/adobe/utils/IntUtil.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845978502" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/com/adobe/utils/XMLUtil.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845978502" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/com/adobe/utils/DateUtil.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845978502" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/com/adobe/utils/ArrayUtil.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845978502" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/com/adobe/utils/StringUtil.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845978502" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/com/adobe/utils/DictionaryUtil.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845978502" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/com/adobe/utils/NumberFormatter.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845978502" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/com/adobe/crypto/MD5.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845978502" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/com/adobe/crypto/HMAC.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845978502" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/com/adobe/crypto/SHA1.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845978502" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/com/adobe/crypto/SHA224.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845978502" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/com/adobe/crypto/SHA256.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845978502" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/com/adobe/crypto/MD5Stream.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386846229802" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/com/adobe/crypto/WSSEUsernameToken.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845978502" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/com/adobe/errors/IllegalStateError.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845978502" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/com/adobe/images/BitString.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845978502" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/com/adobe/images/JPGEncoder.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845978502" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/com/adobe/images/PNGEncoder.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845978502" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/com/adobe/webapis/events/ServiceEvent.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845978502" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/com/adobe/webapis/ServiceBase.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845978502" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/com/adobe/webapis/URLLoaderBase.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845978502" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/com/adobe/protocols/dict/util/SocketHelper.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845978502" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/com/adobe/protocols/dict/util/CompleteResponseEvent.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845978502" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/com/adobe/protocols/dict/events/ErrorEvent.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845978502" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/com/adobe/protocols/dict/events/MatchEvent.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845978502" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/com/adobe/protocols/dict/events/NoMatchEvent.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845978502" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/com/adobe/protocols/dict/events/DatabaseEvent.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845978502" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/04_Photo_Desktop/Labo_01/src/com/adobe/protocols/dict/events/ConnectedEvent.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386845978502" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/controls/PageIndicator.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758510" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/controls/NumericStepper.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758510" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/controls/ScreenNavigator.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758510" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/controls/ScrollContainer.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758510" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/controls/SimpleScrollBar.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758510" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/controls/ScreenNavigatorItem.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758510" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/utils/geom/matrixToScaleX.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758510" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/utils/geom/matrixToScaleY.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758510" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/utils/geom/matrixToRotation.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758510" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/dragDrop/DragData.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758510" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/dragDrop/IDragSource.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758510" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/dragDrop/IDropTarget.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758510" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/dragDrop/DragDropManager.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758510" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/utils/math/clamp.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758510" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/utils/math/roundToNearest.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758510" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/utils/math/roundToPrecision.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758510" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/textures/Scale3Textures.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758510" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/utils/math/roundUpToNearest.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758510" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/textures/Scale9Textures.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758510" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/utils/math/roundDownToNearest.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758510" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/AudioPlayerMobile.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758510" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/utils/display/calculateScaleRatioToFit.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758510" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/utils/display/calculateScaleRatioToFill.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758510" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/utils/display/getDisplayObjectDepthFromStage.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758510" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/events/DragDropEvent.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758510" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/events/ExclusiveTouch.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758510" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/events/FeathersEventType.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758510" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/events/CollectionEventType.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758510" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/layout/ILayout.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758510" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/layout/ILayoutData.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758510" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/layout/AnchorLayout.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758510" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/layout/IVirtualLayout.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758510" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/layout/VerticalLayout.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758510" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/layout/ViewPortBounds.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758510" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/layout/TiledRowsLayout.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758510" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/layout/AnchorLayoutData.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758510" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/layout/HorizontalLayout.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758511" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/layout/LayoutBoundsResult.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758511" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/layout/TiledColumnsLayout.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758511" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/layout/ILayoutDisplayObject.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758511" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/layout/ITrimmedVirtualLayout.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758511" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/layout/IVariableVirtualLayout.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758511" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/motion/transitions/ScreenFadeTransitionManager.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758511" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/motion/transitions/TabBarSlideTransitionManager.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758511" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/motion/transitions/OldFadeNewSlideTransitionManager.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758511" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/motion/transitions/ScreenSlidingStackTransitionManager.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758511" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/system/DeviceCapabilities.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758511" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/themes/MetalWorksMobileTheme.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758511" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/be/devine/cp3/audioPlayer/vo/SongVO.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866773131" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/display/TiledImage.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758511" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/display/Scale3Image.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758511" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/display/Scale9Image.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758511" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/be/devine/cp3/audioPlayer/model/AppModel.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758511" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/be/devine/cp3/audioPlayer/mobile/view/PlayList.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758511" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/be/devine/cp3/audioPlayer/mobile/view/SongInfo.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758511" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/be/devine/cp3/audioPlayer/mobile/view/PlaybackControls.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758511" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/be/devine/cp3/audioPlayer/mobile/Main.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758511" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/controls/text/ITextEditorViewPort.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758511" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/controls/text/StageTextTextEditor.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758511" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/controls/text/TextFieldTextEditor.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758511" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/controls/text/TextFieldTextRenderer.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758511" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/controls/text/BitmapFontTextRenderer.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758511" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/controls/text/TextFieldTextEditorViewPort.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758511" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/controls/popups/IPopUpContentManager.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758511" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/controls/popups/CalloutPopUpContentManager.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758511" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/controls/popups/DropDownPopUpContentManager.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758511" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/controls/popups/VerticalCenteredPopUpContentManager.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758511" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/controls/List.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758511" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/core/IToggle.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758511" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/controls/Alert.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758511" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/core/TokenList.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758511" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/controls/Check.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758511" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/core/ITextEditor.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758511" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/controls/Label.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758511" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/core/ToggleGroup.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758512" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/controls/Panel.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758512" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/core/FocusManager.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758512" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/controls/Radio.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758512" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/core/IFocusExtras.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758512" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/controls/Button.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758512" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/core/PopUpManager.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758512" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/controls/Header.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758512" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/core/IFocusManager.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758512" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/core/ITextRenderer.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758512" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/core/PropertyProxy.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758512" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/core/IGroupedToggle.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758512" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/core/FeathersControl.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758512" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/core/ValidationQueue.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758512" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/core/IFeathersControl.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758512" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/core/DisplayListWatcher.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758512" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/core/IFocusDisplayObject.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758512" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/core/IFeathersDisplayObject.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758512" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/core/IFeathersEventDispatcher.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758512" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/controls/renderers/IListItemRenderer.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758512" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/controls/renderers/BaseDefaultItemRenderer.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758512" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/controls/renderers/DefaultListItemRenderer.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758512" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/controls/renderers/IGroupedListItemRenderer.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758512" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/controls/renderers/LayoutGroupListItemRenderer.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758512" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/controls/renderers/DefaultGroupedListItemRenderer.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758512" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/controls/renderers/IGroupedListHeaderOrFooterRenderer.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758512" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/controls/renderers/LayoutGroupGroupedListItemRenderer.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758512" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/controls/renderers/DefaultGroupedListHeaderOrFooterRenderer.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758512" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/controls/renderers/LayoutGroupGroupedListHeaderOrFooterRenderer.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758512" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/controls/Screen.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758512" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/data/ListCollection.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758512" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/controls/Slider.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758512" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/data/HierarchicalCollection.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758512" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/controls/TabBar.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758512" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/data/IListCollectionDataDescriptor.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758512" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/controls/Callout.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758512" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/data/ArrayListCollectionDataDescriptor.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758512" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/controls/Drawers.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758512" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/data/VectorListCollectionDataDescriptor.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758512" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/controls/IScreen.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758513" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/data/XMLListListCollectionDataDescriptor.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758513" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/controls/Scroller.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758513" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/data/IHierarchicalCollectionDataDescriptor.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758513" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/controls/TextArea.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758513" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/data/VectorIntListCollectionDataDescriptor.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758513" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/controls/ScrollBar.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758513" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/data/VectorUintListCollectionDataDescriptor.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758513" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/controls/TextInput.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758513" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/data/VectorNumberListCollectionDataDescriptor.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758513" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/controls/IScrollBar.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758513" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/controls/PickerList.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758513" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/data/ArrayChildrenHierarchicalCollectionDataDescriptor.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758513" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/controls/ScrollText.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758513" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/controls/ButtonGroup.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758513" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/controls/GroupedList.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758513" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/controls/ImageLoader.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758513" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/text/StageTextField.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758513" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/text/BitmapFontTextFormat.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758513" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/controls/LayoutGroup.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758513" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/controls/PanelScreen.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758513" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/controls/ProgressBar.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758513" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/skins/StandardIcons.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758513" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/skins/StateValueSelector.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758513" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/controls/supportClasses/IViewPort.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758513" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/skins/ImageStateValueSelector.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758513" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/controls/supportClasses/LayoutViewPort.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758513" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/skins/StateWithToggleValueSelector.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758513" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/controls/supportClasses/ListDataViewPort.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758513" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/skins/Scale9ImageStateValueSelector.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758513" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/controls/supportClasses/TextFieldViewPort.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758513" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/skins/SmartDisplayObjectStateValueSelector.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758513" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/controls/supportClasses/GroupedListDataViewPort.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758513" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/src/feathers/controls/ToggleSwitch.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866758513" ignored="false" />
+    <file path="/AudioPlayerMobile.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866929090" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/AudioPlayerMobile.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386866931982" ignored="false" />
+    <file path="/Converter.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386867143929" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/be/devine/cp3/audioPlayer/mobile/Main.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386868184895" ignored="false" />
+    <file path="/JsonLoaderTask.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386870120360" ignored="false" />
+    <file path="/XMLLoaderTask.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386870452638" ignored="false" />
+    <file path="/Queue.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386871051688" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,37 +382,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AppModel.as" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="AppModel.as" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/model/AppModel.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0">
+            <state line="14" column="26" selection-start="324" selection-end="324" vertical-scroll-proportion="0.1904762">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Converter.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Converter.as">
+      <file leaf-file-name="JsonLoaderTask.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/be/devine/cp3/queue/tasks/JsonLoaderTask.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="37" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0">
+            <state line="48" column="51" selection-start="1465" selection-end="1465" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#36#69#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Queue.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/be/devine/cp3/queue/Queue.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="47" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.as" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Main.as" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/converter/Main.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="10" selection-start="835" selection-end="835" vertical-scroll-proportion="0.42857143">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SpriteSheetApplication.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/be/devine/cp3/spritesheet/SpriteSheetApplication.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="974" selection-end="974" vertical-scroll-proportion="0.0">
+            <state line="14" column="0" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -130,18 +434,25 @@
         <option value="$PROJECT_DIR$/src/test.as" />
         <option value="$PROJECT_DIR$/src/converter/converter.as" />
         <option value="$PROJECT_DIR$/src/Main.as" />
-        <option value="$PROJECT_DIR$/src/Converter.as" />
-        <option value="$PROJECT_DIR$/src/model/AppModel.as" />
         <option value="$PROJECT_DIR$/assets/costum/flash_assets.xml" />
         <option value="$PROJECT_DIR$/src/be/devine/cp3/spritesheet/SpriteSheetApplication.as" />
+        <option value="$PROJECT_DIR$/src/be/devine/cp3/spritesheet/TweensApplication.as" />
+        <option value="$PROJECT_DIR$/src/be/devine/cp3/text/TextFieldUtil.as" />
+        <option value="$PROJECT_DIR$/src/model/AppModel.as" />
         <option value="$PROJECT_DIR$/src/converter/Main.as" />
+        <option value="$PROJECT_DIR$/src/Converter.as" />
+        <option value="$PROJECT_DIR$/src/be/devine/cp3/queue/ITask.as" />
+        <option value="$PROJECT_DIR$/src/be/devine/cp3/queue/tasks/XMLLoaderTask.as" />
+        <option value="$PROJECT_DIR$/src/be/devine/cp3/queue/tasks/JsonLoaderTask2.as" />
+        <option value="$PROJECT_DIR$/src/be/devine/cp3/queue/tasks/JsonLoaderTask.as" />
+        <option value="$PROJECT_DIR$/src/be/devine/cp3/queue/Queue.as" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="9" />
+    <option name="x" value="80" />
     <option name="y" value="22" />
-    <option name="width" value="1198" />
+    <option name="width" value="1149" />
     <option name="height" value="778" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -165,13 +476,15 @@
       <showMembers />
       <showModules />
       <showLibraryContents />
-      <hideEmptyPackages />
+      <hideEmptyPackages ProjectPane="true" />
       <abbreviatePackageNames />
       <autoscrollToSource />
       <autoscrollFromSource />
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -254,6 +567,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="cp3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="text" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Converter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Converter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cp3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="spritesheet" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -268,11 +607,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="spritesheet" />
+              <option name="myItemId" value="cp3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="queue" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -286,14 +629,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cp3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="queue" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasks" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -302,7 +655,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Theorie/07_demo/Demos/Starling01-KaatsendeBal" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Labo/01_Request_queue/labo_02" />
     <property name="project.structure.side.proportion" value="0.2050985" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -313,10 +666,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/be/devine/cp3/queue/tasks" />
+      <recent name="$PROJECT_DIR$/src/be/devine/cp3/queue" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/assets/custom" />
       <recent name="$PROJECT_DIR$/src/be/devine/cp3" />
-      <recent name="$PROJECT_DIR$/assets/costum" />
     </key>
     <key name="CreateActionScriptClassDialog.DESTINATION_PACKAGE_RECENT_KEY">
+      <recent name="be.devine.cp3.queue.tasks" />
       <recent name="converter" />
       <recent name="model" />
       <recent name="" />
@@ -518,7 +875,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="9" y="22" width="1198" height="778" extended-state="0" />
+    <frame x="80" y="22" width="1149" height="778" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -532,19 +889,19 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298611" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22135417" sideWeight="0.6018237" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22756119" sideWeight="0.6018237" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298611" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -617,48 +974,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/model/AppModel.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/converter/Main.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="8" selection-start="1756" selection-end="1756" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Converter.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/AppModel.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/converter/Main.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="19" selection-start="545" selection-end="545" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Converter.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="10" selection-end="10" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/AppModel.as">
-      <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="0" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0">
           <folding />
         </state>
@@ -678,30 +993,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/be/devine/cp3/spritesheet/SpriteSheetApplication.as">
+    <entry file="file://$PROJECT_DIR$/assets/spritesheet/flash_assets.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/spritesheet/flash_assets.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="974" selection-end="974" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/AppModel.as">
+    <entry file="file://$PROJECT_DIR$/src/be/devine/cp3/text/TextFieldUtil.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Converter.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="37" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0">
+        <state line="16" column="0" selection-start="470" selection-end="470" vertical-scroll-proportion="0.33333334">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/converter/Main.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="10" selection-start="835" selection-end="835" vertical-scroll-proportion="0.42857143">
+        <state line="14" column="0" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/feathers/core/IToggle.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/be/devine/cp3/queue/tasks/JsonLoaderTask.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="51" selection-start="1465" selection-end="1465" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#36#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/be/devine/cp3/queue/Queue.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="47" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/be/devine/cp3/spritesheet/TweensApplication.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/be/devine/cp3/spritesheet/SpriteSheetApplication.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="61" selection-start="470" selection-end="470" vertical-scroll-proportion="0.19769357">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/be/devine/cp3/queue/ITask.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Converter.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="5" selection-start="648" selection-end="648" vertical-scroll-proportion="0.45238096">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/AppModel.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="26" selection-start="324" selection-end="324" vertical-scroll-proportion="0.1904762">
           <folding />
         </state>
       </provider>

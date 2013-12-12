@@ -11,11 +11,15 @@ import flash.geom.Rectangle;
 import starling.core.Starling;
 import starling.events.Event;
 
+
+[SWF(backgroundColor="#000000")]
 public class Converter extends Sprite{
 
     private var _starling:Starling;
 
     public function Converter() {
+        stage.align = StageAlign.TOP_LEFT;
+        stage.scaleMode = StageScaleMode.NO_SCALE;
 
         _starling = new Starling(Main, stage);
         _starling.start();

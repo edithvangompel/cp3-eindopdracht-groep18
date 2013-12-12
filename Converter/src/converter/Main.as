@@ -26,8 +26,6 @@ public class Main extends Sprite{
     private var _arrManBroekUS:Array = [30, 32, 34, 36, 38, 40, 42];
     private var _arrManBroekUK:Array = [30, 32, 34, 36, 38, 40, 42];
 
-    //Test
-
     private var _arrManSchoenenEU:Array = [38.5, 39, 40, 41, 42, 43, 44, 45];   //8 items
     private var _arrManSchoenenUS:Array = [6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10];
     private var _arrManSchoenenUK:Array = [6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5];
@@ -50,6 +48,7 @@ public class Main extends Sprite{
         var green:Quad= new Quad(500,100,0x00ff00);
         green.y=100;
         addChild(green);
+
 
         
 

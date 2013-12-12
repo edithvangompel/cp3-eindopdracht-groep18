@@ -11,11 +11,11 @@ public class SpriteSheetApplication extends Sprite{
     //public static const StruisVogelXML:Class;
 
     [Embed(source="/../assets/spritesheet/flash_assets.png")]
-    public static const StruisVogelTexture:Class;
+    //public static const StruisVogelTexture:Class;
 
     public function SpriteSheetApplication() {
 
-        var texture:Texture = Texture.fromBitmap(new StruisVogelTexture());
+        /*var texture:Texture = Texture.fromBitmap(new StruisVogelTexture());
         var xml:XML = XML(new StruisVogelXML());
         var textureAtlas:TextureAtlas = new TextureAtlas(texture, xml);
         var frames:Vector.<Texture> = textureAtlas.getTextures("struisvogel");
@@ -24,7 +24,7 @@ public class SpriteSheetApplication extends Sprite{
         struisvogel.loop = true;
         addChild(struisvogel);
 
-        Starling.juggler.add(struisvogel);
+        Starling.juggler.add(struisvogel);*/
     }
 }
 }
