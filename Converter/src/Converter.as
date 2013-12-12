@@ -1,6 +1,6 @@
 package {
 
-import converter.Main;
+import be.devine.cp3.Main;
 
 import flash.display.Sprite;
 import flash.display.StageAlign;
