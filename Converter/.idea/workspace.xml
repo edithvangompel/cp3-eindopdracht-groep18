@@ -391,39 +391,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Converter.as" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Converter.as" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Converter.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="5" selection-start="652" selection-end="652" vertical-scroll-proportion="0.0">
+            <state line="20" column="40" selection-start="452" selection-end="452" vertical-scroll-proportion="0.26190478">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JsonLoaderTask.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/be/devine/cp3/queue/tasks/JsonLoaderTask.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="51" selection-start="1465" selection-end="1465" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#36#69#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Queue.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/be/devine/cp3/queue/Queue.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="47" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.as" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Main.as" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/be/devine/cp3/Main.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="44" selection-start="1465" selection-end="1465" vertical-scroll-proportion="0.45238096">
+            <state line="62" column="8" selection-start="2072" selection-end="2072" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#187#223#0" expanded="true" />
               </folding>
@@ -449,7 +429,6 @@
         <option value="$PROJECT_DIR$/src/be/devine/cp3/text/TextFieldUtil.as" />
         <option value="$PROJECT_DIR$/src/model/AppModel.as" />
         <option value="$PROJECT_DIR$/src/converter/Main.as" />
-        <option value="$PROJECT_DIR$/src/Converter.as" />
         <option value="$PROJECT_DIR$/src/be/devine/cp3/queue/ITask.as" />
         <option value="$PROJECT_DIR$/src/be/devine/cp3/queue/tasks/XMLLoaderTask.as" />
         <option value="$PROJECT_DIR$/src/be/devine/cp3/queue/tasks/JsonLoaderTask2.as" />
@@ -457,6 +436,7 @@
         <option value="$PROJECT_DIR$/src/be/devine/cp3/queue/Queue.as" />
         <option value="$PROJECT_DIR$/src/Main.as" />
         <option value="$PROJECT_DIR$/src/be/devine/cp3/Main.as" />
+        <option value="$PROJECT_DIR$/src/Converter.as" />
       </list>
     </option>
   </component>
@@ -560,24 +540,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Converter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Converter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="custom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -644,19 +606,6 @@
       <option name="trusted" value="true" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -683,6 +632,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -936,28 +898,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/spritesheet/flash_assets.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/be/devine/cp3/text/TextFieldUtil.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="470" selection-end="470" vertical-scroll-proportion="0.33333334">
-          <folding />
-        </state>
+        <state line="16" column="0" selection-start="470" selection-end="470" vertical-scroll-proportion="0.33333334" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/feathers/core/IToggle.as">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/be/devine/cp3/queue/Queue.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="47" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -983,12 +934,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/be/devine/cp3/Main.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="8" selection-start="2072" selection-end="2072" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#187#223#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/be/devine/cp3/queue/Queue.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="47" selection-start="77" selection-end="77" vertical-scroll-proportion="0.023809524">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/be/devine/cp3/queue/tasks/JsonLoaderTask.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="51" selection-start="1465" selection-end="1465" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#36#69#0" expanded="true" />
-          </folding>
+        <state line="48" column="51" selection-start="1465" selection-end="1465" vertical-scroll-proportion="0.46515396">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -999,19 +964,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Converter.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="5" selection-start="652" selection-end="652" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/assets/custom/bg.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/be/devine/cp3/Main.as">
+    <entry file="file://$PROJECT_DIR$/src/Converter.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="44" selection-start="1465" selection-end="1465" vertical-scroll-proportion="0.45238096">
-          <folding>
-            <element signature="e#187#223#0" expanded="true" />
-          </folding>
+        <state line="20" column="40" selection-start="452" selection-end="452" vertical-scroll-proportion="0.26190478">
+          <folding />
         </state>
       </provider>
     </entry>
