@@ -9,6 +9,7 @@ package be.devine.cp3 {
 
 import be.devine.cp3.model.AppModel;
 import be.devine.cp3.view.BeginScherm;
+import be.devine.cp3.view.TweedeScherm;
 
 import feathers.controls.Button;
 
@@ -27,6 +28,7 @@ public class Main extends Sprite{
     private var _bg:Image;
     private var _btnStart:Button;
     private var _beginScherm:BeginScherm;
+    private var _tweedeScherm:TweedeScherm;
 
     private var _appModel:AppModel;
 
@@ -57,15 +59,10 @@ public class Main extends Sprite{
 
 
     public function Main() {
-
-        new MetalWorksMobileTheme();
-
+        trace("[MAIN] contruct");
         _appModel = AppModel.getInstance();
-        trace("[MAIN]");
 
-
-        trace(_arrManBroekUK);
-
+        // BACKGROUND IMAGE
         _bg = Image.fromBitmap(new BackgroundClass());
         addChild(_bg);
 
@@ -85,6 +82,8 @@ public class Main extends Sprite{
     }
 
     private function layout():void {
+
+
 
         _beginScherm = new BeginScherm();
         addChild(_beginScherm);
