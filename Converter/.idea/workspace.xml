@@ -5,7 +5,7 @@
     <ignored path="Converter.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/fragment.js2" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386930690911" ignored="false" />
-    <file path="/Main.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386925498128" ignored="false" />
+    <file path="/Main.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386932747056" ignored="false" />
     <file path="$USER_HOME$/Downloads/Demos/Starling01-KaatsendeBal/src/Starling01KaatsendeBal.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386323201181" ignored="false" />
     <file path="$USER_HOME$/Downloads/Demos/Starling01-KaatsendeBal/Starling01KaatsendeBal-app.xml" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386323379146" ignored="false" />
     <file path="/Starling01KaatsendeBal-app.xml" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386323374006" ignored="false" />
@@ -325,19 +325,20 @@
     <file path="/SizesVO.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386921029581" ignored="false" />
     <file path="/text.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386921644696" ignored="false" />
     <file path="$PROJECT_DIR$/../../../Theorie/08_demo/oefening/src/be/devine/cp3/audioPlayer/mobile/view/PlaybackControls.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386924337200" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../Labo/05_/.idea/workspace.xml" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386931504694" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Labo/05_/.idea/workspace.xml" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386932904241" ignored="false" />
     <file path="$PROJECT_DIR$/../../Converter/src/be/devine/cp3/view/beginScherm.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386930598516" ignored="false" />
-    <file path="/beginScherm.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386930597541" ignored="false" />
+    <file path="/beginScherm.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386932569339" ignored="false" />
     <file path="$PROJECT_DIR$/../../Converter/src/be/devine/cp3/components/beginButton.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386929906077" ignored="false" />
     <file path="$PROJECT_DIR$/../../Converter/src/be/devine/cp3/model/AppModel.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386929933985" ignored="false" />
     <file path="$PROJECT_DIR$/../../Converter/src/be/devine/cp3/view/TweedeScherm.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386931487745" ignored="false" />
     <file path="/TweedeScherm.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386931485851" ignored="false" />
-    <file path="$PROJECT_DIR$/../../Converter/src/be/devine/cp3/Main.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386930620366" ignored="false" />
-    <file path="$PROJECT_DIR$/../../Converter/src/be/devine/cp3/view/BeginScherm.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386931135434" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Converter/src/be/devine/cp3/Main.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386932889396" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Converter/src/be/devine/cp3/view/BeginScherm.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386932660229" ignored="false" />
     <file path="$PROJECT_DIR$/../../Converter/src/be/devine/cp3/components/TweedeSchermButton.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386930744347" ignored="false" />
     <file path="$PROJECT_DIR$/../../Converter/src/be/devine/cp3/components/BeginButton.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386930707683" ignored="false" />
     <file path="/TweedeSchermButton.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386930723549" ignored="false" />
     <file path="$PROJECT_DIR$/../../Converter/src/be/devine/cp3/components/AllButton.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386930771409" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Converter/src/be/devine/cp3/spritesheet/SpriteSheetApplication.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386932337649" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -828,7 +829,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="80" y="22" width="1149" height="778" extended-state="1" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
