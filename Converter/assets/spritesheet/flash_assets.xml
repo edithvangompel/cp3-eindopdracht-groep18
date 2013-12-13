@@ -2,8 +2,8 @@
 <TextureAtlas imagePath="flash_assets.png">
 	<!-- Created with Adobe Flash Professional version 13.1.0.217 -->
 	<!-- http://www.adobe.com/products/flash.html -->
-	<SubTexture name=" NAAR" x="0" y="0" width="88" height="25" pivotX="0" pivotY="0"/>
-	<SubTexture name=" VAN (EUROPESE MAAT)" x="88" y="0" width="254" height="28" pivotX="0" pivotY="0"/>
+	<SubTexture name="NAAR" x="0" y="0" width="88" height="25" pivotX="0" pivotY="0"/>
+	<SubTexture name="VAN(EUROPESE MAAT)" x="88" y="0" width="254" height="28" pivotX="0" pivotY="0"/>
 	<SubTexture name="BG" x="342" y="0" width="480" height="800" pivotX="0" pivotY="0"/>
 	<SubTexture name="BG_kader" x="822" y="0" width="471" height="721" pivotX="0" pivotY="0"/>
 	<SubTexture name="CONVERTEER" x="1293" y="0" width="224" height="27" pivotX="0" pivotY="0"/>
