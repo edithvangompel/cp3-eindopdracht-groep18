@@ -4,7 +4,7 @@
     <list default="true" id="159af628-6f31-4a71-87bf-67d324bfba20" name="Default" comment="" />
     <ignored path="Converter.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/fragment.js2" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386869939858" ignored="false" />
+    <file path="/fragment.js2" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386920970010" ignored="false" />
     <file path="/Main.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386872151266" ignored="false" />
     <file path="$USER_HOME$/Downloads/Demos/Starling01-KaatsendeBal/src/Starling01KaatsendeBal.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386323201181" ignored="false" />
     <file path="$USER_HOME$/Downloads/Demos/Starling01-KaatsendeBal/Starling01KaatsendeBal-app.xml" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386323379146" ignored="false" />
@@ -322,6 +322,7 @@
     <file path="/JsonLoaderTask.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386870120360" ignored="false" />
     <file path="/XMLLoaderTask.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386870452638" ignored="false" />
     <file path="/Queue.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386871051688" ignored="false" />
+    <file path="/SizesVO.as" changelist="159af628-6f31-4a71-87bf-67d324bfba20" time="1386921029581" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -391,10 +392,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Converter.as" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Converter.as" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Converter.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="40" selection-start="452" selection-end="452" vertical-scroll-proportion="0.26190478">
+            <state line="20" column="40" selection-start="452" selection-end="452" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SizesVO.as" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/be/devine/cp3/vo/SizesVO.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="0" selection-start="371" selection-end="371" vertical-scroll-proportion="0.23809524">
               <folding />
             </state>
           </provider>
@@ -421,7 +431,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/test.as" />
         <option value="$PROJECT_DIR$/src/converter/converter.as" />
         <option value="$PROJECT_DIR$/assets/costum/flash_assets.xml" />
         <option value="$PROJECT_DIR$/src/be/devine/cp3/spritesheet/SpriteSheetApplication.as" />
@@ -437,6 +446,7 @@
         <option value="$PROJECT_DIR$/src/Main.as" />
         <option value="$PROJECT_DIR$/src/be/devine/cp3/Main.as" />
         <option value="$PROJECT_DIR$/src/Converter.as" />
+        <option value="$PROJECT_DIR$/src/be/devine/cp3/vo/SizesVO.as" />
       </list>
     </option>
   </component>
@@ -560,18 +570,19 @@
     <property name="GoToClass.includeLibraries" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateActionScriptClassDialog.DESTINATION_PACKAGE_RECENT_KEY">
+      <recent name="be.devine.cp3.vo" />
+      <recent name="be.devine.cp3.queue.tasks" />
+      <recent name="converter" />
+      <recent name="model" />
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/be/devine/cp3/queue/tasks" />
       <recent name="$PROJECT_DIR$/src/be/devine/cp3/queue" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/assets/custom" />
       <recent name="$PROJECT_DIR$/src/be/devine/cp3" />
-    </key>
-    <key name="CreateActionScriptClassDialog.DESTINATION_PACKAGE_RECENT_KEY">
-      <recent name="be.devine.cp3.queue.tasks" />
-      <recent name="converter" />
-      <recent name="model" />
-      <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/be/devine/cp3" />
@@ -868,13 +879,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/be/devine/cp3/model/AppModel.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/be/devine/cp3/Main.as">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="0" selection-start="385" selection-end="385" vertical-scroll-proportion="0.0">
@@ -971,7 +975,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Converter.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="40" selection-start="452" selection-end="452" vertical-scroll-proportion="0.26190478">
+        <state line="20" column="40" selection-start="452" selection-end="452" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/be/devine/cp3/vo/SizesVO.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="371" selection-end="371" vertical-scroll-proportion="0.23809524">
           <folding />
         </state>
       </provider>
