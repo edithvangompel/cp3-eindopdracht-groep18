@@ -11,6 +11,10 @@ import be.devine.cp3.model.AppModel;
 import be.devine.cp3.view.BeginScherm;
 import be.devine.cp3.view.TweedeScherm;
 import feathers.controls.Button;
+import feathers.controls.TextInput;
+
+import flash.events.Event;
+
 import flash.text.Font;
 import starling.display.Image;
 import starling.display.Quad;
@@ -67,26 +71,20 @@ public class Main extends Sprite{
             trace(font.fontName, font.fontStyle, font.fontType);
         }
 
-
         //BACKGROUND IMAGE
         _bg = Image.fromBitmap(new BackgroundClass());
         addChild(_bg);
-        addEventListener(Event.ADDED_TO_STAGE, addedHandler);
-
-
-        var label:TextField = new TextField(10,10,"een test","Cassannet",16,0x00ff00,false);
-        //labelField.defaultTextFormat = Style.CHECKBOX;
-        addChild(label);
+        addEventListener(starling.events.Event.ADDED_TO_STAGE, addedHandler);
 
     }
 
-    private function addedHandler(event:Event):void {
-        removeEventListener(Event.ADDED_TO_STAGE, addedHandler);
-        stage.addEventListener(Event.RESIZE, resizeHandler);
+    private function addedHandler(event:starling.events.Event):void {
+        removeEventListener(starling.events.Event.ADDED_TO_STAGE, addedHandler);
+        stage.addEventListener(starling.events.Event.RESIZE, resizeHandler);
         layout();
     }
 
-    private function resizeHandler(event:Event):void {
+    private function resizeHandler(event:starling.events.Event):void {
         layout();
     }
 
@@ -94,7 +92,16 @@ public class Main extends Sprite{
         _beginScherm = new BeginScherm();
         addChild(_beginScherm);
 
+        addEventListener(starling.events.Event.COMPLETE, completeHandler);
+
     }
 
+    private function completeHandler(event:starling.events.Event):void {
+        trace("[Main] complete event uit de klasse Beginscherm opgevangen!");
+
+        removeChild(_beginScherm);
+        _tweedeScherm = new TweedeScherm();
+        addChild(_tweedeScherm);
+    }
 }
 }

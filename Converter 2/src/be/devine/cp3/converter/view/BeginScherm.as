@@ -1,27 +1,14 @@
-/**
- * Created with IntelliJ IDEA.
- * User: matthiasbrodelet
- * Date: 13/12/13
- * Time: 09:39
- * To change this template use File | Settings | File Templates.
- */
-package be.devine.cp3.view {
-import be.devine.cp3.components.AllButton;
-import be.devine.cp3.model.AppModel;
-
+package be.devine.cp3.converter.view {
+import be.devine.cp3.converter.components.AllButton;
+import be.devine.cp3.converter.model.AppModel;
 import feathers.controls.Button;
+import feathers.controls.Screen;
 
-import flash.events.Event;
-import flash.events.MouseEvent;
-
-import starling.display.Image;
-
-import starling.display.Sprite;
 import starling.events.Event;
 import starling.textures.Texture;
 import starling.textures.TextureAtlas;
 
-public class BeginScherm extends Sprite{
+public class BeginScherm extends Screen{
 
     //LOCATIE SPRITE SHEET
     [Embed(source="/../assets/custom/flash_assets.png")]
@@ -43,6 +30,14 @@ public class BeginScherm extends Sprite{
     private var _arryPos:Array = new Array(300,550);
 
     public function BeginScherm() {
+
+    }
+
+    override protected function draw():void{
+
+    }
+
+    override protected function initialize():void{
         _appModel = AppModel.getInstance();
 
         var texture:Texture = Texture.fromBitmap(new ATLAS_IMAGE());
@@ -51,16 +46,16 @@ public class BeginScherm extends Sprite{
 
         //CREATE HEADER
         /*var header_start_texture:Texture = _atlas.getTexture("intro");
-        _header_start = new Image(header_start_texture);
-        addChild(_header_start);
-        addEventListener(starling.events.Event.ADDED_TO_STAGE, addedToStageHandler);
+         _header_start = new Image(header_start_texture);
+         addChild(_header_start);
+         addEventListener(starling.events.Event.ADDED_TO_STAGE, addedToStageHandler);
 
-        //CREATE NEXTBUTTON
-        var _nextbtn_texture:Texture = _atlas.getTexture("next_button");
-        _nextbtn = new Image(_nextbtn_texture);
-        _nextbtn.x = 395;
-        _nextbtn.y = 650;
-        addChild(_nextbtn);*/
+         //CREATE NEXTBUTTON
+         var _nextbtn_texture:Texture = _atlas.getTexture("next_button");
+         _nextbtn = new Image(_nextbtn_texture);
+         _nextbtn.x = 395;
+         _nextbtn.y = 650;
+         addChild(_nextbtn);*/
 
 
         //CREATE BUTTONS
@@ -80,26 +75,15 @@ public class BeginScherm extends Sprite{
 
     }
 
-
-
     private function addedToStageHandler(event:starling.events.Event):void {
         _header_start.x = stage.stageWidth / 2 - _header_start.width/2;
         _header_start.y = stage.stageHeight / 2 - _header_start.height/2;
-
     }
 
     private function button_triggeredHandler(event:starling.events.Event):void {
-        trace("[BeginScherm] Button triggerd");
-        //removeChild(_nextbtn);
-        //removeChild(_header_start);
-
-        addEventListener(starling.events.Event.COMPLETE, completeHandler);
-        //var tweedeScherm:TweedeScherm = new TweedeScherm();
+        dispatchEventWith("knopklik", true, _nextbtn);
 
     }
 
-    private function completeHandler(event:starling.events.Event):void {
-        trace("[BeginScherm] complete event afgevuurd!");
-    }
 }
 }
