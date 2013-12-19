@@ -57,20 +57,25 @@ public class EindScherm extends Screen {
         var arrayCounter:Number = 0;
         for each (var value:String in _arrButtons) {
 
-            _button = new AllButton(value, _arrxPos[arrayCounter], _arryPos[arrayCounter], texture, xml);
+            _button = new AllButton(value, _arrxPos[arrayCounter]+103, _arryPos[arrayCounter]+80, texture, xml);
             addChild(_button);
             _arrButtons2.push(_button);
             arrayCounter += 1;
         }
 
-        _lijnen = _arrButtons2[0];
         _replaybtn = _arrButtons2[0];
+        trace(_replaybtn);
         addChild(_replaybtn);
+        _replaybtn.addEventListener(starling.events.Event.TRIGGERED, button_triggeredHandler);
     }
 
     private function addedToStageHandler(event:Event):void {
         _cont.x = stage.stageWidth / 2 - _cont.width/2;
         _cont.y = stage.stageHeight / 2 - _cont.height/2;
+    }
+
+    private function button_triggeredHandler(event:starling.events.Event):void {
+        dispatchEventWith("knopklik4", true, _replaybtn);
     }
 
 

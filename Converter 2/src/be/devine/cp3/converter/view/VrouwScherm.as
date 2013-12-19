@@ -1,25 +1,15 @@
-/**
- * Created with IntelliJ IDEA.
- * User: matthiasbrodelet
- * Date: 16/12/13
- * Time: 17:42
- * To change this template use File | Settings | File Templates.
- */
 package be.devine.cp3.converter.view {
 import be.devine.cp3.converter.components.AllButton;
 import be.devine.cp3.converter.model.AppModel;
-
 import feathers.controls.Button;
-
-import starling.display.Image;
+import feathers.controls.Screen;
 
 import starling.display.Sprite;
 import starling.events.Event;
 import starling.textures.Texture;
 import starling.textures.TextureAtlas;
 
-public class VrouwScherm extends Sprite{
-
+public class VrouwScherm extends Screen{
 
     //LOCATIE SPRITE SHEET
     [Embed(source="/../assets/custom/flash_assets.png")]
@@ -42,27 +32,28 @@ public class VrouwScherm extends Sprite{
     private var _arryPos:Array = new Array(120,120,50,550,0,300,460);
 
     public function VrouwScherm() {
-
         trace("[ManScherm] construct");
 
-        _appModel = AppModel.getInstance();
+    }
+    override protected function draw():void{
 
+    }
+
+    override protected function initialize():void{
+        _appModel = AppModel.getInstance();
         _cont = new Sprite();
 
         var texture:Texture = Texture.fromBitmap(new ATLAS_IMAGE());
         var xml:XML = XML(new ATLAS_XML());
         var _atlas:TextureAtlas = new TextureAtlas(texture, xml);
 
-
-
-        addEventListener(starling.events.Event.ADDED_TO_STAGE, addedToStageHandler);
-
+        //addEventListener(starling.events.Event.ADDED_TO_STAGE, addedToStageHandler);
 
         //CREATE BUTTONS
         var arrayCounter:Number = 0;
         for each (var value:String in _arrButtons) {
 
-            _button = new AllButton(value, _arrxPos[arrayCounter], _arryPos[arrayCounter], texture, xml);
+            _button = new AllButton(value, _arrxPos[arrayCounter]+103, _arryPos[arrayCounter]+80, texture, xml);
             addChild(_button);
             _arrButtons2.push(_button);
             arrayCounter += 1;
@@ -71,10 +62,6 @@ public class VrouwScherm extends Sprite{
         _lijnen = _arrButtons2[0];
         _nextbtn = _arrButtons2[1];
         addChild(_nextbtn);
-    }
-
-    private function addedToStageHandler(event:Event):void {
-
     }
 }
 }

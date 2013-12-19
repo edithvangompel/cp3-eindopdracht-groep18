@@ -124,7 +124,7 @@ public class ConverteerScherm extends Screen{
         var arrayCounter:Number = 0;
         for each (var value:String in _arrButtons) {
 
-            _button = new AllButton(value, _arrxPos[arrayCounter], _arryPos[arrayCounter], texture, xml);
+            _button = new AllButton(value, _arrxPos[arrayCounter]+103, _arryPos[arrayCounter]+80, texture, xml);
             addChild(_button);
             _arrButtons2.push(_button);
             arrayCounter += 1;

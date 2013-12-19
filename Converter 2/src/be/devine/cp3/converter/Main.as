@@ -34,6 +34,7 @@ public class Main extends Sprite{
 
     private static const BEGINSCHERM:String = "beginscherm";
     private static const MANSCHERM:String = "manscherm";
+    private static const VROUWSCHERM:String = "vrouwscherm";
     private static const CONVERTEERSCHERM:String = "converteerscherm";
     private static const EINDSCHERM:String = "eindscherm";
 
@@ -64,10 +65,13 @@ public class Main extends Sprite{
         var manscherm:ScreenNavigatorItem = new ScreenNavigatorItem(ManScherm, {knopklik2: selected2}, null);
         _nav.addScreen(MANSCHERM,manscherm);
 
+        //var vrouwscherm:ScreenNavigatorItem = new ScreenNavigatorItem(ManScherm, {knopklikVrouw: selectedVrouw}, null);
+        //_nav.addScreen(VROUWSCHERM,vrouwscherm);
+
         var converteerscherm:ScreenNavigatorItem = new ScreenNavigatorItem(ConverteerScherm, {knopklik3: selected3}, null);
         _nav.addScreen(CONVERTEERSCHERM,converteerscherm);
 
-        var eindscherm:ScreenNavigatorItem = new ScreenNavigatorItem(ConverteerScherm, {knopklik4: selectedReplay}, null);
+        var eindscherm:ScreenNavigatorItem = new ScreenNavigatorItem(EindScherm, {knopklik4: selectedReplay}, null);
         _nav.addScreen(EINDSCHERM,eindscherm);
 
         _nav.showScreen(BEGINSCHERM);
@@ -79,6 +83,13 @@ public class Main extends Sprite{
     private function selected(e:Event, si:Object):void{
         selectedItem = si;
         _nav.showScreen(MANSCHERM);
+    }
+
+    //LINK SCHERM VROUW
+    private function selectedVrouw(e:Event, si:Object):void{
+        trace("in functie selectedVrouw");
+        selectedItem = si;
+        _nav.showScreen(VROUWSCHERM);
     }
 
     //LINK SCHERM 3
