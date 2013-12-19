@@ -1,5 +1,6 @@
 package be.devine.cp3.converter {
 
+import be.devine.cp3.converter.components.AllButton;
 import be.devine.cp3.converter.model.AppModel;
 import be.devine.cp3.converter.view.BeginScherm;
 import be.devine.cp3.converter.view.ConverteerScherm;
@@ -83,14 +84,40 @@ public class Main extends Sprite{
     private function selected(e:Event, si:Object):void{
         selectedItem = si;
         _nav.showScreen(MANSCHERM);
+        this.addEventListener(AllButton.BUTTON_CLICKED, buttonClickedHandler);
+    }
+
+    private function buttonClickedHandler(event:Event, path:String):void{
+        trace("[Main] geklikt op: " + path);
+        var aangekliktKledingstuk:String = path;
+
+        switch (aangekliktKledingstuk){
+            case "hemd_g":
+                _nav.showScreen(CONVERTEERSCHERM);
+                    //megeven string hemd_g als je naar t converteerscherm gaat
+                break;
+            case "broek_g":
+                _nav.showScreen(CONVERTEERSCHERM);
+                break;
+            case "schoenen_man_g":
+                _nav.showScreen(CONVERTEERSCHERM);
+                break;
+            case "kleed_or":
+                _nav.showScreen(CONVERTEERSCHERM);
+                break;
+            case "schoenen_vrouw_or":
+                _nav.showScreen(CONVERTEERSCHERM);
+                break;
+        }
+
     }
 
     //LINK SCHERM VROUW
-    private function selectedVrouw(e:Event, si:Object):void{
+    /*private function selectedVrouw(e:Event, si:Object):void{
         trace("in functie selectedVrouw");
         selectedItem = si;
         _nav.showScreen(VROUWSCHERM);
-    }
+    }*/
 
     //LINK SCHERM 3
     private function selected2(e:Event, si:Object):void{

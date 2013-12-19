@@ -166,7 +166,6 @@ public class ManScherm extends Screen{
                     hemd.alpha = 1;
                     broek.alpha = .3;
                     schoenen.alpha = .3;
-                    dispatchEventWith(HEMD_CLICKED, true);
                 break;
             case broek:
                 trace("broek");
