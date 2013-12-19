@@ -1,4 +1,5 @@
 package be.devine.cp3.converter.view {
+import be.devine.cp3.converter.Main;
 import be.devine.cp3.converter.components.AllButton;
 import be.devine.cp3.converter.model.AppModel;
 import feathers.controls.Button;
@@ -70,7 +71,7 @@ public class ConverteerScherm extends Screen{
 
 
     public function ConverteerScherm() {
-        trace("[ManScherm] construct");
+        trace("[ConverteerScherm] construct");
 
     }
     override protected function draw():void{
@@ -78,6 +79,21 @@ public class ConverteerScherm extends Screen{
     }
 
     override protected function initialize():void{
+        trace("[ConverteerScherm] element dat binnenkomt " + Main.selectedItem);
+        //var binnenkomendKledingstuk:AllButton = Main.selectedItem as AllButton;
+        //var binnenkomendKledingstuk = _main.aangekliktKledingsstuk;
+        //this.addEventListener(Main.selectedItem, buttonClickedHandler);
+
+        var main:Main = new Main();
+        var a:String = main.aangekliktKledingstuk;
+        trace("jaaa " + a);
+
+        /*switch (binnenkomendKledingstuk){
+            case "hemd":
+                trace("jaaa + hemd");
+                break;
+        }*/
+
         _appModel = AppModel.getInstance();
 
         _cont = new Sprite();
@@ -140,6 +156,11 @@ public class ConverteerScherm extends Screen{
 
     private function button_triggeredHandler(event:starling.events.Event):void {
         dispatchEventWith("knopklik3", true, _nextbtn);
+    }
+
+    private function buttonClickedHandler(event:Event, path:String):void{
+        trace("[ConverteerScherm] geklikt op: " + path);
+
     }
 
 }

@@ -23,11 +23,6 @@ public class Main extends Sprite{
 
     private var _bg:Image;
     private var _btnStart:Button;
-    private var _beginScherm:BeginScherm;
-    private var _manScherm:ManScherm;
-    private var _vrouwScherm:VrouwScherm;
-    private var _converteerScherm:ConverteerScherm;
-    private var _eindScherm:EindScherm;
     public static var selectedItem:Object;
 
     private var _appModel:AppModel;
@@ -38,6 +33,11 @@ public class Main extends Sprite{
     private static const VROUWSCHERM:String = "vrouwscherm";
     private static const CONVERTEERSCHERM:String = "converteerscherm";
     private static const EINDSCHERM:String = "eindscherm";
+
+    private static const HEMD:String = "hemd";
+    private static const BROEK:String = "broek";
+
+    private var _aangekliktKledingstuk:String;
 
 
     public function Main() {
@@ -89,12 +89,15 @@ public class Main extends Sprite{
 
     private function buttonClickedHandler(event:Event, path:String):void{
         trace("[Main] geklikt op: " + path);
-        var aangekliktKledingstuk:String = path;
+        _aangekliktKledingstuk = path;
 
-        switch (aangekliktKledingstuk){
+        switch (_aangekliktKledingstuk){
             case "hemd_g":
+                    //_aangekliktKledingstuk = "hemd";
+                    trace("[Main] aangekliktkledingsstuk: " + _aangekliktKledingstuk);
                 _nav.showScreen(CONVERTEERSCHERM);
-                    //megeven string hemd_g als je naar t converteerscherm gaat
+                    //megeven vd string hemd_g (of geklikt op naam allbutton) als je naar t converteerscherm gaat
+                    dispatchEventWith(HEMD);
                 break;
             case "broek_g":
                 _nav.showScreen(CONVERTEERSCHERM);
@@ -111,6 +114,8 @@ public class Main extends Sprite{
         }
 
     }
+
+
 
     //LINK SCHERM VROUW
     /*private function selectedVrouw(e:Event, si:Object):void{
@@ -142,15 +147,15 @@ public class Main extends Sprite{
     }
 
     private function layout():void {
-
-        _beginScherm = new BeginScherm();
-        _manScherm = new ManScherm();
-        _vrouwScherm = new VrouwScherm();
-        _converteerScherm = new ConverteerScherm();
-        _eindScherm = new EindScherm();
-
-
     }*/
 
+    public function get aangekliktKledingstuk():String {
+        return _aangekliktKledingstuk;
+        _aangekliktKledingstuk == AllButton.BUTTON_CLICKED;
+    }
+
+    public function set aangekliktKledingstuk(value:String):void {
+        _aangekliktKledingstuk = value;
+    }
 }
 }

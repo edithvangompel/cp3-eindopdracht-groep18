@@ -25,6 +25,7 @@ public class ManScherm extends Screen{
 
     private var _appModel:AppModel;
 
+    private var _aangekliktItem:AllButton;
     private var _button:AllButton;
     private var _nextbtn:Button;
     private var _knopVrouw:Button;
@@ -151,7 +152,7 @@ public class ManScherm extends Screen{
     }
 
     private function button_triggeredHandlerMAN(event:starling.events.Event):void {
-        var aangekliktItem:AllButton = event.currentTarget as AllButton;
+        _aangekliktItem = event.currentTarget as AllButton;
 
         var hemd:AllButton = _arrButtonsMan2[5];
         var broek:AllButton = _arrButtonsMan2[6];
@@ -207,5 +208,12 @@ public class ManScherm extends Screen{
     }
 
 
+    public function get aangekliktItem():AllButton {
+        return _aangekliktItem;
+    }
+
+    public function set aangekliktItem(value:AllButton):void {
+        _aangekliktItem = value;
+    }
 }
 }
