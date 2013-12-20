@@ -37,7 +37,8 @@ public class Main extends Sprite{
     private static const HEMD:String = "hemd";
     private static const BROEK:String = "broek";
 
-    private var _aangekliktKledingstuk:String;
+    public static var _aangekliktLand:String;
+    public static var _aangekliktKledingstuk:String;
 
 
     public function Main() {
@@ -88,12 +89,11 @@ public class Main extends Sprite{
     }
 
     private function buttonClickedHandler(event:Event, path:String):void{
-        trace("[Main] geklikt op: " + path);
+        trace("[Main][MANSCHERM] geklikt op: " + path);
         _aangekliktKledingstuk = path;
 
         switch (_aangekliktKledingstuk){
             case "hemd_g":
-                    //_aangekliktKledingstuk = "hemd";
                     trace("[Main] aangekliktkledingsstuk: " + _aangekliktKledingstuk);
                 _nav.showScreen(CONVERTEERSCHERM);
                     //megeven vd string hemd_g (of geklikt op naam allbutton) als je naar t converteerscherm gaat
@@ -111,18 +111,14 @@ public class Main extends Sprite{
             case "schoenen_vrouw_or":
                 _nav.showScreen(CONVERTEERSCHERM);
                 break;
+            case "UK_g":
+                _nav.showScreen(EINDSCHERM);
+                break;
+            case "US_g":
+                _nav.showScreen(EINDSCHERM);
+                break;
         }
-
     }
-
-
-
-    //LINK SCHERM VROUW
-    /*private function selectedVrouw(e:Event, si:Object):void{
-        trace("in functie selectedVrouw");
-        selectedItem = si;
-        _nav.showScreen(VROUWSCHERM);
-    }*/
 
     //LINK SCHERM 3
     private function selected2(e:Event, si:Object):void{
@@ -151,7 +147,7 @@ public class Main extends Sprite{
 
     public function get aangekliktKledingstuk():String {
         return _aangekliktKledingstuk;
-        _aangekliktKledingstuk == AllButton.BUTTON_CLICKED;
+        _aangekliktKledingstuk = AllButton.BUTTON_CLICKED;
     }
 
     public function set aangekliktKledingstuk(value:String):void {

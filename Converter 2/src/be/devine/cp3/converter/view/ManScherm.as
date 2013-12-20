@@ -145,6 +145,7 @@ public class ManScherm extends Screen{
         addChild(_nextbtn);
         _nextbtn.addEventListener(starling.events.Event.TRIGGERED, button_triggeredHandler);
         _knopMan.addEventListener(starling.events.Event.TRIGGERED, initialize);
+
         _kleed.addEventListener(starling.events.Event.TRIGGERED, button_triggeredHandlerVROUW);
         _hakken.addEventListener(starling.events.Event.TRIGGERED, button_triggeredHandlerVROUW);
 
@@ -215,5 +216,6 @@ public class ManScherm extends Screen{
     public function set aangekliktItem(value:AllButton):void {
         _aangekliktItem = value;
     }
+
 }
 }

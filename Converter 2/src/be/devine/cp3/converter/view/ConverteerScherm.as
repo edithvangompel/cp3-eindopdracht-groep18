@@ -41,8 +41,10 @@ public class ConverteerScherm extends Screen{
     private var _sizesContainer:Sprite;
     private var btnCounter:uint;
 
+    public static var juisteArray:Array = [];
+
     private var _arrButtons:Array = new Array(" VAN (EUROPESE MAAT)"," NAAR","lijnen","next_button",
-                                                                    "CONVERTEER","UK_grijs","US_grijs");
+                                                                    "CONVERTEER","UK_groen","US_groen");
     private var _arrButtons2:Array = new Array();
     private var _arrxPos:Array = new Array(90,95,90,280,90,45,145);
     private var _arryPos:Array = new Array(100,460,50,550,0,530,530);
@@ -86,13 +88,7 @@ public class ConverteerScherm extends Screen{
 
         var main:Main = new Main();
         var a:String = main.aangekliktKledingstuk;
-        trace("jaaa " + a);
-
-        /*switch (binnenkomendKledingstuk){
-            case "hemd":
-                trace("jaaa + hemd");
-                break;
-        }*/
+        trace("[ConverteerScherm] getter van aangekliktKledingstuk vanuit Main " + a);
 
         _appModel = AppModel.getInstance();
 
@@ -101,6 +97,41 @@ public class ConverteerScherm extends Screen{
         var texture:Texture = Texture.fromBitmap(new ATLAS_IMAGE());
         var xml:XML = XML(new ATLAS_XML());
         var _atlas:TextureAtlas = new TextureAtlas(texture, xml);
+
+
+        //SWITCH AANGEKLIKT KLEDINGSTUK IN MANSCHERM
+        var a:String = Main._aangekliktKledingstuk;
+        trace("[ConverteerScherm] aangeklikt kledingstuk: " + a);
+
+        switch (a){
+            case "hemd_g":
+                trace(a);
+                juisteArray = _arrManHemdEU;
+                arrayHandler();
+                break;
+            case "broek_g":
+                trace(a);
+                juisteArray = _arrManBroekEU;
+                arrayHandler();
+                break;
+            case "schoenen_man_g":
+                trace(a);
+                juisteArray = _arrManSchoenenEU;
+                arrayHandler();
+                break;
+            case "kleed_or":
+                trace(a);
+                juisteArray = _ArrVrouwKleedEU;
+                arrayHandler();
+                break;
+            case "schoenen_vrouw_or":
+                //default:
+                trace(a);
+                juisteArray = _ArrVrouwSchoenEU;
+                arrayHandler();
+                break;
+        }
+
 
         //CREATE NUMERIC BUTTONS
         _sizesContainer = new Sprite();
@@ -148,10 +179,44 @@ public class ConverteerScherm extends Screen{
 
         _lijnen = _arrButtons2[0];
         _nextbtn = _arrButtons2[3];
-        trace(_nextbtn)
-        addChild(_nextbtn);
         _nextbtn.addEventListener(starling.events.Event.TRIGGERED, button_triggeredHandler);
 
+    }
+
+    private function arrayHandler():void{
+
+        //CREATE NUMERIC BUTTONS
+        _sizesContainer = new Sprite();
+        addChild(_sizesContainer);
+        _sizesContainer.x = 100;
+        _sizesContainer.y = 270;
+        var xPos:uint = 0;
+        var yPos:uint = 0;
+
+        trace("[ConverteerScherm] array kledingsstuk: " + juisteArray);
+
+        for each(var element:Number in juisteArray){
+            _legeButton = Image.fromBitmap(new ButtonClass());
+            _sizesContainer.addChild(_legeButton);
+
+            var starlingTextField:starling.text.TextField =
+                    new starling.text.TextField(
+                            100, 100, element + "", "Verdana", 30, 0x75b699
+                    );
+            starlingTextField.x = xPos;
+            starlingTextField.y = yPos;
+            _legeButton.x = xPos;
+            _legeButton.y = yPos;
+
+            xPos += starlingTextField.width - 1;
+            btnCounter += 1;
+
+            if(btnCounter == 3 || btnCounter == 6){
+                xPos = 0;
+                yPos += starlingTextField.height - 1;
+            }
+            _sizesContainer.addChild(starlingTextField);
+        }
     }
 
     private function button_triggeredHandler(event:starling.events.Event):void {
@@ -162,6 +227,8 @@ public class ConverteerScherm extends Screen{
         trace("[ConverteerScherm] geklikt op: " + path);
 
     }
+
+
 
 }
 }
