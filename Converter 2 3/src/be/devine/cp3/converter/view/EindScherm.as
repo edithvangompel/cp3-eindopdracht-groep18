@@ -1,4 +1,6 @@
 package be.devine.cp3.converter.view {
+import be.devine.cp3.converter.Main;
+
 import feathers.controls.Screen;
 
 import starling.display.Image;
@@ -52,6 +54,29 @@ public class EindScherm extends Screen {
     private var _arrxPos:Array = new Array(280,90,41,41);
     private var _arryPos:Array = new Array(550,150,250,340);
 
+    //MAN hemd broek schoenen
+    private var _arrManHemdEU:Array = [36, 38, 40, 42, 44, 46, 48];     //7 items
+    private var _arrManHemdUS:Array = [14, 14.5, 15, 15.5, 16, 16.5, 17];
+    private var _arrManHemdUK:Array = [14, 14.5, 15, 15.5, 16, 16.5, 17];
+
+    private var _arrManBroekEU:Array = [46, 48, 50, 52, 54, 56, 58];    //7 items
+    private var _arrManBroekUS:Array = [30, 32, 34, 36, 38, 40, 42];
+    private var _arrManBroekUK:Array = [30, 32, 34, 36, 38, 40, 42];
+
+    private var _arrManSchoenenEU:Array = [38.5, 39, 40, 41, 42, 43, 44, 45];   //8 items
+    private var _arrManSchoenenUS:Array = [6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10];
+    private var _arrManSchoenenUK:Array = [6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5];
+
+    //VROUW kleed schoenen
+    private var _ArrVrouwKleedEU:Array = [36, 38, 40, 42, 44, 46, 48];  //7 items
+    private var _ArrVrouwKleedUS:Array = [6, 8, 10, 12, 14, 16, 18];
+    private var _ArrVrouwKleedUK:Array = [8, 10, 12, 14, 16, 18, 20];
+
+    private var _ArrVrouwSchoenEU:Array = [37, 37.5, 38, 39, 39.5, 40, 41, 41.5]; //8 items
+    private var _ArrVrouwSchoenUS:Array = [6, 6.5, 7, 7.5, 8, 8.8, 9, 9.5];
+    private var _ArrVrouwSchoenUK:Array = [4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5];
+
+
     public function EindScherm() {
         trace("[EindScherm] construct");
 
@@ -85,17 +110,29 @@ public class EindScherm extends Screen {
         _EUknop = _arrButtons2[2];
         _replaybtn.addEventListener(starling.events.Event.TRIGGERED, button_triggeredHandler);
 
-        //switch (gekliktLand){ case "uk":
-        _UKknop = Image.fromBitmap(new ButtonClassUK());
-        this.addChild(_UKknop);
-        _UKknop.x = 151;
-        _UKknop.y = 432;
 
-        //case "us":
-        _USknop = Image.fromBitmap(new ButtonClassUS());
-        this.addChild(_USknop);
-        _USknop.x = 151;
-        _USknop.y = 432;
+        //SWITCH US OF UK
+        var land:String = Main._aangekliktKledingstuk;
+        //var kledingstuk:String = Main._aangekliktKledingstuk;
+        trace("[ConverteerScherm] aangeklikt land: " + land);
+
+        //switch (gekliktLand){ case "uk":
+        switch (land){
+            case "UK_g":
+                trace(land);
+                _UKknop = Image.fromBitmap(new ButtonClassUK());
+                this.addChild(_UKknop);
+                _UKknop.x = 151;
+                _UKknop.y = 432;
+                break;
+            case "US_g":
+                trace(land);
+                _USknop = Image.fromBitmap(new ButtonClassUS());
+                this.addChild(_USknop);
+                _USknop.x = 151;
+                _USknop.y = 432;
+                break;
+        }
 
 
         //CREATE TEXT BUTTONS

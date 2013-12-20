@@ -54,8 +54,8 @@ public class NumButton extends Button {
     }
 
     private function button_triggeredHandler(event:Event):void {
-        trace("[ALLBUTTON]" + " " + "Button triggered: " + _path.slice( 0, -4 ) );
-        trace("[ALLBUTTON]" + " " + "Button NUM triggered: " + _element );
+        trace("[NUMBUTTON]" + " " + "Button triggered: " + _path.slice( 0, -4 ) );
+        trace("[NUMBUTTON]" + " " + "Button NUM triggered: " + _element );
 
         dispatchEventWith(BUTTON_CLICKED, true, _path.slice(0,-4));    //naam vh path
         dispatchEventWith(BUTTON_CLICKED_NUM, true, _element);    //aangeklikt nummer

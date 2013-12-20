@@ -5,11 +5,8 @@ import be.devine.cp3.converter.components.NumButton;
 import be.devine.cp3.converter.model.AppModel;
 import feathers.controls.Button;
 import feathers.controls.Screen;
-
-import starling.display.Image;
 import starling.display.Sprite;
 import starling.events.Event;
-import starling.text.TextField;
 import starling.textures.Texture;
 import starling.textures.TextureAtlas;
 
@@ -42,8 +39,15 @@ public class ConverteerScherm extends Screen{
     private var _sizesContainer:Sprite;
     private var btnCounter:uint;
     private var _aangekliktNummer:Number;
+    private var _indexArray:int;
+    private var _aangekliktLand:AllButton;
+    private var _EUknop:Button;
+    private var _USknop:Button;
+    private var _UKknop:Button;
 
     public static var juisteArray:Array = [];
+    //public static var indexArray:Number;
+    public static const INDEX:String = "index";
 
     private var _arrButtons:Array = new Array(" VAN (EUROPESE MAAT)"," NAAR","lijnen","next_button","CONVERTEER","UK_groen","US_groen");
     private var _arrButtons2:Array = new Array();
@@ -71,6 +75,7 @@ public class ConverteerScherm extends Screen{
     private var _ArrVrouwSchoenEU:Array = [37, 37.5, 38, 39, 39.5, 40, 41, 41.5]; //8 items
     private var _ArrVrouwSchoenUS:Array = [6, 6.5, 7, 7.5, 8, 8.8, 9, 9.5];
     private var _ArrVrouwSchoenUK:Array = [4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5];
+
 
 
     public function ConverteerScherm() {
@@ -123,7 +128,7 @@ public class ConverteerScherm extends Screen{
                 break;
         }
 
-        //CREATE BUTTONS
+        //CREATE BUTTONS US/UK
         var arrayCounter:Number = 0;
         for each (var value:String in _arrButtons) {
 
@@ -135,7 +140,11 @@ public class ConverteerScherm extends Screen{
 
         _lijnen = _arrButtons2[0];
         _nextbtn = _arrButtons2[3];
+        _UKknop = _arrButtons2[5];
+        _USknop = _arrButtons2[6];
         _nextbtn.addEventListener(starling.events.Event.TRIGGERED, button_triggeredHandler);
+        _USknop.addEventListener(starling.events.Event.TRIGGERED, buttonLand_triggeredHandler);
+        _UKknop.addEventListener(starling.events.Event.TRIGGERED, buttonLand_triggeredHandler);
 
     }
 
@@ -155,13 +164,11 @@ public class ConverteerScherm extends Screen{
 
         trace("[ConverteerScherm] array kledingsstuk: " + juisteArray);
 
+
         for each(var element:Number in juisteArray){
-            //_legeButton = Image.fromBitmap(new ButtonClass());
             _legeButton = new NumButton("button_leeg",0,0,texture,xml,element);
             _sizesContainer.addChild(_legeButton);
 
-            //starlingTextField.x = xPos;
-            //starlingTextField.y = yPos;
             _legeButton.x = xPos;
             _legeButton.y = yPos;
 
@@ -174,7 +181,11 @@ public class ConverteerScherm extends Screen{
             }
             _sizesContainer.addChild(_legeButton);
             _legeButton.addEventListener(Event.TRIGGERED, _numberClickedHandler);
+
         }
+
+        _indexArray = juisteArray.indexOf(element);
+
 
     }
 
@@ -184,10 +195,38 @@ public class ConverteerScherm extends Screen{
 
         _aangekliktNummer = aangekliktNummer.element;
 
+        indexArray = juisteArray.indexOf(_aangekliktNummer);
+        trace("plaats in arrayxx: " + indexArray);
+        dispatchEvent(new Event(INDEX,true));
+                //indexArray = _indexArray;
+
     }
 
     private function button_triggeredHandler(event:starling.events.Event):void {
         dispatchEventWith("knopklik3", true, _nextbtn);
+    }
+
+    private function buttonLand_triggeredHandler(event:starling.events.Event):void {
+        _aangekliktLand = event.currentTarget as AllButton;
+
+        var uk:AllButton = _arrButtons2[5];
+        var us:AllButton = _arrButtons2[6];
+        uk.alpha = .3;
+        us.alpha = .3;
+
+        switch (_aangekliktLand){
+            case us:
+                trace("us");
+                us.alpha = 1;
+                uk.alpha = .3;
+                break;
+            case uk:
+                trace("uk");
+                us.alpha = .3;
+                uk.alpha = 1;
+                break;
+        }
+
     }
 
     private function buttonClickedHandler(event:Event, path:String):void{
@@ -195,12 +234,23 @@ public class ConverteerScherm extends Screen{
 
     }
 
-    public function get aangekliktNummer():Number {
-        return _aangekliktNummer;
+
+    public function get aangekliktLand():AllButton {
+        return _aangekliktLand;
     }
 
-    public function set aangekliktNummer(value:Number):void {
-        _aangekliktNummer = value;
+    public function set aangekliktLand(value:AllButton):void {
+        _aangekliktLand = value;
+    }
+
+    public function get indexArray():int {
+        trace("get indexArrayy: " + _indexArray);
+        return _indexArray;
+    }
+
+    public function set indexArray(value:int):void {
+        trace("set indexArray: " + value);
+        _indexArray = value;
     }
 }
 }

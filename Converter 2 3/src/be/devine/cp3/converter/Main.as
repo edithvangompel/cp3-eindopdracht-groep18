@@ -1,6 +1,7 @@
 package be.devine.cp3.converter {
 
 import be.devine.cp3.converter.components.AllButton;
+import be.devine.cp3.converter.components.NumButton;
 import be.devine.cp3.converter.model.AppModel;
 import be.devine.cp3.converter.view.BeginScherm;
 import be.devine.cp3.converter.view.ConverteerScherm;
@@ -39,6 +40,10 @@ public class Main extends Sprite{
 
     public static var _aangekliktKledingstuk:String;
     public static var _aangekliktNummer:Number;
+    public static var _aangekliktLand:String;
+    //public static var _indexArray:Number;
+
+    private var c:ConverteerScherm = new ConverteerScherm();
 
 
     public function Main() {
@@ -57,6 +62,11 @@ public class Main extends Sprite{
         removeEventListener(Event.ADDED_TO_STAGE, addedToStageHandler);
         //stage.addEventListener(Event.RESIZE, resizeHandler);
         //layout();
+
+
+
+        this.addEventListener(ConverteerScherm.INDEX, handler);
+
 
         _nav = new ScreenNavigator();
         this.addChild(_nav);
@@ -94,11 +104,10 @@ public class Main extends Sprite{
 
         switch (_aangekliktKledingstuk){
             case "hemd_g":
-                    //_aangekliktKledingstuk = "hemd";
-                    trace("[Main] aangekliktkledingsstuk: " + _aangekliktKledingstuk);
-                    _nav.showScreen(CONVERTEERSCHERM);
-                    //megeven vd string hemd_g (of geklikt op naam allbutton) als je naar t converteerscherm gaat
-                    dispatchEventWith(HEMD);
+                //_aangekliktKledingstuk = "hemd";
+                trace("[Main] aangekliktkledingsstuk: " + _aangekliktKledingstuk);
+                _nav.showScreen(CONVERTEERSCHERM);
+                //selected2(Event, "test");
                 break;
             case "broek_g":
                 trace("[Main] aangekliktkledingsstuk: " + _aangekliktKledingstuk);
@@ -116,16 +125,45 @@ public class Main extends Sprite{
                 trace("[Main] aangekliktkledingsstuk: " + _aangekliktKledingstuk);
                 _nav.showScreen(CONVERTEERSCHERM);
                 break;
+            case "button_": //alle nummers
+
+                trace(c.indexArray);
+                //var index:int = c.indexArray;
+                //trace("ja " + index);
+
+                //var index:Number = ConverteerScherm.indexArray;
+
+                trace("[Main] aangekliktNUMMER: " + _aangekliktKledingstuk);
+                //trace("[Main] index array: " + index);
+                break;
             case "UK_g":
-                trace("[Main] aangekliktkledingsstuk: " + _aangekliktKledingstuk);
+                trace("[Main] aangekliktLand: " + _aangekliktKledingstuk);
                 //trace("[Main] aangekliktNummer: " + _aangekliktNummer);
                 _nav.showScreen(EINDSCHERM);
                 break;
             case "US_g":
-                trace("[Main] aangekliktkledingsstuk: " + _aangekliktKledingstuk);
+                trace("[Main] aangekliktLand: " + _aangekliktKledingstuk);
                 _nav.showScreen(EINDSCHERM);
                 break;
         }
+
+    }
+
+    private function handler(event:Event):void{
+
+        //var aangekliktNummer:NumButton = event.currentTarget;
+        //trace("[ConverteerScherm] geklikt op getal: " + aangekliktNummer);
+
+        //_aangekliktNummer = aangekliktNummer;
+
+        //indexArray = juisteArray.indexOf(_aangekliktNummer);
+
+        //dispatchEvent(new Event(INDEX,true));
+        //trace("plaats in array: " + _aangekliktNummer);
+        //indexArray = _indexArray;
+        var index:int = c.indexArray;
+        //trace("ja " + index);
+        trace("ja" + index);
 
     }
 
@@ -133,6 +171,26 @@ public class Main extends Sprite{
     private function selected2(e:Event, si:Object):void{
         selectedItem = si;
         _nav.showScreen(CONVERTEERSCHERM);
+        this.addEventListener(AllButton.BUTTON_CLICKED, buttonClickedHandler2);
+    }
+
+    private function buttonClickedHandler2(event:Event, path:String):void{
+        trace("[Main][buttonClickedHandler2] geklikt op: " + path);
+        _aangekliktLand = path;
+
+        //trace("ja" + _aangekliktLand);
+
+        switch (_aangekliktLand){
+            case "UK_g":
+                trace("[Main] aangekliktLand: " + _aangekliktLand);
+                _nav.showScreen(EINDSCHERM);
+                break;
+            case "US_g":
+                trace("[Main] aangekliktLand: " + _aangekliktLand);
+                _nav.showScreen(EINDSCHERM);
+                break;
+        }
+
     }
 
     //LINK SCHERM 4
